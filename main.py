@@ -18,7 +18,9 @@ driver = webdriver.Firefox()
 driver.get("http://captive.apple.com/hotspot-detect.html")
 signupButton = driver.find_element_by_id("amdocs_signup")
 signupButton.click()
-time.sleep(6)
+time.sleep(3)
+plan = driver.find_element_by_id("offersFreeList1")
+plan.click()
 continueButton = driver.find_element_by_id("continueButton")
 continueButton.click()
 # amdocs_signup is the button
@@ -26,6 +28,7 @@ continueButton.click()
 # driver.select('rateplanid', 'spn')
 #Idk how to select the plan
 #continueButton is the continue button
+
 time.sleep(5)
 frstNameBox = driver.find_element_by_id("registerFirstName")
 frstNameBox.send_keys("TEST")
@@ -65,11 +68,3 @@ registerBtn.click()
 time.sleep(10)
 finishBtn = driver.find_element_by_id("orderConfirmationActivatePass")
 finishBtn.click()
-#dk0-combobox
-#dk0-What-was your first car (make and model)?
-#secretAnswer
-#password
-#passwordRetype
-#orderConfirmationActivatePass
-
-
