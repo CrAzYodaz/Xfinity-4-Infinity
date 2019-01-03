@@ -4,15 +4,22 @@ import string
 import random
 import time
 
+
 def makerandstr(len):
 	letters = string.ascii_letters
 	return ''.join(random.choice(letters) for i in range(len))
+
+
 def randNumString(len):
-	letters = list("1234567890qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNMN")
+	letters = list(
+		"1234567890qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNMN")
 	return ''.join(random.choice(letters) for i in range(len))
+
+
 def randNum(len):
 	letters = list("1234567890")
 	return ''.join(random.choice(letters) for i in range(len))
+
 
 driver = webdriver.Firefox()
 driver.get("http://captive.apple.com/hotspot-detect.html")
@@ -31,15 +38,16 @@ continueButton.click()
 
 time.sleep(5)
 frstNameBox = driver.find_element_by_id("registerFirstName")
-frstNameBox.send_keys("TEST")
+frstNameBox.send_keys(makerandstr(6))
 lstNameBox = driver.find_element_by_id("registerLastName")
-lstNameBox.send_keys("TEST")
+lstNameBox.send_keys(makerandstr(5))
 emailBox = driver.find_element_by_id("registerEmail")
 emailBox.send_keys(randNumString(10) + "@" + randNumString(10) + ".ca")
 zipBox = driver.find_element_by_id("registerZipCode")
-zipBox.send_keys("11111")
+zipBox.send_keys(randNum(5))
 time.sleep(2)
-continueRegistrationButton = driver.find_element_by_id("registerContinueButton")
+continueRegistrationButton = driver.find_element_by_id(
+	"registerContinueButton")
 continueRegistrationButton.click()
 
 #registerFirstName
@@ -56,7 +64,7 @@ comboOption = driver.find_element_by_id(
 	"dk0-What-was your first car (make and model)?")
 comboOption.click()
 secretAnswer = driver.find_element_by_id("secretAnswer")
-secretAnswer.send_keys("TEST")
+secretAnswer.send_keys(makerandstr(5))
 ourPassword = randNumString(10) + randNum(3)
 passwordBox = driver.find_element_by_id("password")
 passwordBox.send_keys(ourPassword)
@@ -68,5 +76,5 @@ registerBtn.click()
 time.sleep(10)
 finishBtn = driver.find_element_by_id("orderConfirmationActivatePass")
 finishBtn.click()
-time.sleep(20)
+time.sleep(10)
 driver.close()
