@@ -1,0 +1,280 @@
+{
+  "id": "a043297e-3e1d-47bd-9afd-321f5fcaf95c",
+  "version": "2.0",
+  "name": "4X-Infinity",
+  "url": "https://wifiondemand.xfinity.com",
+  "tests": [{
+    "id": "4aab2a94-4e58-498f-91d0-0bf9193b83d3",
+    "name": "Xfinity-4-Infinity",
+    "commands": [{
+      "id": "43fa6042-34f9-4e14-82f5-29ad053453d9",
+      "comment": "",
+      "command": "open",
+      "target": "/wod/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1290af58-f484-48c9-8777-adbfde53e3a5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "680x490",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6e05d99e-8b17-4287-9882-e241311f3419",
+      "comment": "",
+      "command": "click",
+      "target": "id=errorPageActionButton",
+      "targets": [
+        ["id=errorPageActionButton", "id"],
+        ["css=#errorPageActionButton", "css:finder"],
+        ["xpath=//button[@id='errorPageActionButton']", "xpath:attributes"],
+        ["xpath=//div[@id='APP']/div/div[3]/div/div/div/div/div[2]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "86059d60-d56d-4b15-91bc-7b8ab3e7b1b5",
+      "comment": "",
+      "command": "click",
+      "target": "id=amdocs_signup",
+      "targets": [
+        ["id=amdocs_signup", "id"],
+        ["linkText=Get Started", "linkText"],
+        ["css=#amdocs_signup", "css:finder"],
+        ["xpath=//a[contains(text(),'Get Started')]", "xpath:link"],
+        ["xpath=//a[@id='amdocs_signup']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, 'https://wifiondemand.xfinity.com/wod/landing?c=n&macId=1e%3Adb%3A04%3Abd%3A9e%3A56&a=ho&bn=st22&location=Outdoor&apMacId=00%3A0d%3A67%3A49%3A4e%3A0c&issuer=r&deviceModel=Apple+Browser+-+OS+X&NASIP=68.86.32.24&deviceName=default&deviceName=default')]", "xpath:href"],
+        ["xpath=//p[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Get Started')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "23f107a4-4576-4d1f-b516-db2b16c87196",
+      "comment": "",
+      "command": "click",
+      "target": "css=.small-10 .offer-list-offer-name",
+      "targets": [
+        ["css=.small-10 .offer-list-offer-name", "css:finder"],
+        ["xpath=//ul[@id='offersFreeList1']/li/label/label/span", "xpath:idRelative"],
+        ["xpath=//ul[3]/li/label/label/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Complimentary Hour Pass')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "02585c1c-f4e2-4a72-a64a-d93ac802fc19",
+      "comment": "",
+      "command": "click",
+      "target": "id=continueButton",
+      "targets": [
+        ["id=continueButton", "id"],
+        ["css=#continueButton", "css:finder"],
+        ["xpath=//button[@id='continueButton']", "xpath:attributes"],
+        ["xpath=//div[@id='APP']/div/div[3]/div/div/div/div/div[2]/div[5]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "880dbe3f-9e70-4d25-9a99-2cdee6d434f6",
+      "comment": "",
+      "command": "click",
+      "target": "id=upgradeOfferCancelButton",
+      "targets": [
+        ["id=upgradeOfferCancelButton", "id"],
+        ["css=#upgradeOfferCancelButton", "css:finder"],
+        ["xpath=//button[@id='upgradeOfferCancelButton']", "xpath:attributes"],
+        ["xpath=//div[@id='APP']/div/div[3]/div[2]/div/div/div/div/div[2]/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'No, thank you')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "59254e7a-bd62-41b2-9534-94d1836f643f",
+      "comment": "",
+      "command": "click",
+      "target": "id=registerFirstName",
+      "targets": [
+        ["id=registerFirstName", "id"],
+        ["css=#registerFirstName", "css:finder"],
+        ["xpath=//input[@id='registerFirstName']", "xpath:attributes"],
+        ["xpath=//div[@id='APP']/div/div[3]/div/div/div/div/div[2]/div[2]/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f3e0315-4205-40b7-8d5c-5f0d342e8d9e",
+      "comment": "",
+      "command": "type",
+      "target": "id=registerFirstName",
+      "targets": [
+        ["id=registerFirstName", "id"],
+        ["css=#registerFirstName", "css:finder"],
+        ["xpath=//input[@id='registerFirstName']", "xpath:attributes"],
+        ["xpath=//div[@id='APP']/div/div[3]/div/div/div/div/div[2]/div[2]/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Samantha"
+    }, {
+      "id": "6663a870-4434-4c77-bac8-1265adfec733",
+      "comment": "",
+      "command": "type",
+      "target": "id=registerLastName",
+      "targets": [
+        ["id=registerLastName", "id"],
+        ["css=#registerLastName", "css:finder"],
+        ["xpath=//input[@id='registerLastName']", "xpath:attributes"],
+        ["xpath=//div[@id='APP']/div/div[3]/div/div/div/div/div[2]/div[2]/div/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "Jones"
+    }, {
+      "id": "42a23367-5d08-4ebf-ad51-19d2077a3b7e",
+      "comment": "",
+      "command": "type",
+      "target": "id=registerEmail",
+      "targets": [
+        ["id=registerEmail", "id"],
+        ["css=#registerEmail", "css:finder"],
+        ["xpath=//input[@id='registerEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='APP']/div/div[3]/div/div/div/div/div[2]/div[2]/div/div/form/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "jfhfjdf563@gmail.com"
+    }, {
+      "id": "056cb9de-2ae5-4a17-8dee-197c381135bc",
+      "comment": "",
+      "command": "type",
+      "target": "id=registerZipCode",
+      "targets": [
+        ["id=registerZipCode", "id"],
+        ["css=#registerZipCode", "css:finder"],
+        ["xpath=//input[@id='registerZipCode']", "xpath:attributes"],
+        ["xpath=//div[@id='APP']/div/div[3]/div/div/div/div/div[2]/div[2]/div/div/form/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": "87106"
+    }, {
+      "id": "3d205ee2-dd46-4edc-9d95-0c6b677fd19b",
+      "comment": "",
+      "command": "click",
+      "target": "id=registerContinueButton",
+      "targets": [
+        ["id=registerContinueButton", "id"],
+        ["css=#registerContinueButton", "css:finder"],
+        ["xpath=//button[@id='registerContinueButton']", "xpath:attributes"],
+        ["xpath=//div[@id='APP']/div/div[3]/div/div/div/div/div[2]/div[3]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d43dee32-b124-433d-abcd-f393033dd0ec",
+      "comment": "",
+      "command": "click",
+      "target": "id=usePersonalEmail",
+      "targets": [
+        ["id=usePersonalEmail", "id"],
+        ["name=usePersonalEmail", "name"],
+        ["css=#usePersonalEmail", "css:finder"],
+        ["xpath=//button[@id='usePersonalEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='usernameContainer']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1483952d-3798-464f-b7d2-29416058c4e6",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='passwordFieldset']/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "efd3e688-54f5-42e9-9e91-f08cfa1be4b5",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='passwordFieldset']/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset/div/input", "xpath:position"]
+      ],
+      "value": "4xfinity"
+    }, {
+      "id": "dc0fb2c8-f1c1-4864-9a4d-40dbcc3febcd",
+      "comment": "",
+      "command": "type",
+      "target": "id=passwordRetype",
+      "targets": [
+        ["id=passwordRetype", "id"],
+        ["name=passwordRetype", "name"],
+        ["css=#passwordRetype", "css:finder"],
+        ["xpath=//input[@id='passwordRetype']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='passwordFieldset']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//fieldset/div[2]/input", "xpath:position"]
+      ],
+      "value": "4xfinity"
+    }, {
+      "id": "1210628d-48fc-45d5-b702-263795fc20d3",
+      "comment": "",
+      "command": "click",
+      "target": "id=submitButton",
+      "targets": [
+        ["id=submitButton", "id"],
+        ["css=#submitButton", "css:finder"],
+        ["xpath=//button[@id='submitButton']", "xpath:attributes"],
+        ["xpath=//form[@id='mainForm']/div[9]/button", "xpath:idRelative"],
+        ["xpath=//div[9]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e45fb254-066b-46ef-b5be-1d19d0f210fe",
+      "comment": "",
+      "command": "click",
+      "target": "id=_orderConfirmationActivatePass",
+      "targets": [
+        ["id=_orderConfirmationActivatePass", "id"],
+        ["css=#\\_orderConfirmationActivatePass", "css:finder"],
+        ["xpath=//button[@id='_orderConfirmationActivatePass']", "xpath:attributes"],
+        ["xpath=//div[@id='_orderConfirmationPassState']/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Activate Pass')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fcc0e3bb-12bb-47dc-a6a2-80355bd54151",
+      "comment": "",
+      "command": "click",
+      "target": "id=_orderConfirmationActivatePass",
+      "targets": [
+        ["id=_orderConfirmationActivatePass", "id"],
+        ["css=#\\_orderConfirmationActivatePass", "css:finder"],
+        ["xpath=//button[@id='_orderConfirmationActivatePass']", "xpath:attributes"],
+        ["xpath=//div[@id='_orderConfirmationPassState']/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Activate Pass')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "72a9bfa6-265e-426b-8330-c9dffc3ed338",
+    "name": "Xfinity For Ever -- Infinity",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4aab2a94-4e58-498f-91d0-0bf9193b83d3"]
+  }],
+  "urls": ["https://wifiondemand.xfinity.com/"],
+  "plugins": []
+}

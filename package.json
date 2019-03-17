@@ -1,0 +1,23 @@
+{
+  "name": "xfinity-4-infinity",
+  "version": "0.0.1",
+  "description": "Xfinity-4-Infinity, is a selenium-python script code to automatically connect you to a xfinitywifi hotspot.  while xfinity / comcast do offer 1 free hour a month for such fine service. it would be up to you, the end user if you decide to continue using there service .. the scripts inside will basically call up your internet connection, automatically bring up the CAPTIVE-PORTAL from xfinity , and also automatically (and randomly) generate new fake username and email, so that you may enjoy your one free hour a month,  once your month is up. the script will reload itself, hang up your aol dial-up, and then commence clearing out browser-data and cookies topping it all off changing your mac address, so basically, and automatically, when its done, it re-calls itself back to the top, re-signs in with a differnt set of credentials all automatically, One hour at a time,  its almost like you suddenly have Infinity usage ---- sorta like Xfinity-4-Infinity",
+  "main": "index.js",
+  "scripts": {
+    "test": "main.py"
+  },
+  "keywords": [
+    "xfinitywifi",
+    "xfinity"
+  ],
+  "author": "The Cr@zYodaz Foundation",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^2.46.0",
+    "geckodriver": "^1.16.0",
+    "nodejs": "0.0.0",
+    "selenium": "^2.20.0",
+    "splinter": "^1.0.0",
+    "webdriver": "^5.7.2"
+  }
+}
